@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <table>
+        <caption>Example for table</caption>
+        <thead>
+            <tr>
+                <th>First column</th>
+                <th>Second column</th>
+                <th>Third column</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1st cell in 1st row</td>
+                <td>2nd cell in 1st row</td>
+                <td>3d cell in 1st row</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>1st cell in 2nd row</td>
+                <td>2nd cell in 2nd row</td>
+                <td>3d cell in 2nd row</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td rowspan="2">1st cell in 3d row</td>
+                <td>2nd cell in the 2nd column of 3d row</td>
+                <td>3d cell in the 3d column of 3d row</td>             
+            </tr>
+            <tr>
+                <td>4th cell in the 2nd column of 3d row</td>
+                <td>5th cell in the 3d column of 3d row</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <caption>Материал для гаек по ГОСТ 1759.5–87</caption>
+        <thead>
+         <tr>
+          <th>Класс прочности</th>
+          <th>Технологические процессы</th>
+          <th>Марка стали</th>
+          <th>Обозначение стандарта</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>4</td>
+          <td>Горячая штамповка</td>
+          <td>20, Ст3кп3, Ст3сп3</td>
+          <td>ГОСТ 1050–79</td>
+         </tr>
+        </tbody>
+        <tbody>
+         <tr>
+          <td rowspan="2">5</td>
+          <td>Холодная штамповка</td>
+          <td>10, 10кп</td>
+          <td>ГОСТ 0702–78</td>
+         </tr>
+         <tr>
+          <td>Горячая штамповка</td>
+          <td>20</td><td></td>
+         </tr>
+        </tbody>
+        <tbody>
+         <tr>
+          <td>6</td>
+          <td>Холодная штамповка</td>
+          <td>10, 10кп, 15, 15кп</td>
+          <td>ГОСТ 0702–78</td>
+         </tr>
+        </tbody>
+        <tbody>
+         <tr>
+          <td rowspan="2">8, 9</td>
+          <td>Горячая штамповка</td>
+          <td>35</td>
+          <td rowspan="2">ГОСТ 1050–74<br>ГОСТ 4543–71<br>ГОСТ 10702–78</td>
+         </tr>
+         <tr>
+          <td>Холодная штамповка</td>
+          <td>20, 20кп</td>
+         </tr>
+        </tbody>
+        <tfoot>
+         <tr>
+          <th>Класс прочности</th>
+          <th>Технологические процессы</th>
+          <th>Марка стали</th>
+          <th>Обозначение стандарта</th>
+         </tr>
+        </tfoot>
+       </table>
+    
+</body>
+</html>
