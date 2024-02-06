@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+t<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,21 +9,21 @@
 <body>
 
     <table>
-        <caption>Example for table</caption>
+        <caption>Example for table</caption> //Заголовок таблицы
         <thead>
             <tr>
                 <th>First column</th>
                 <th>Second column</th>
                 <th>Third column</th>
             </tr>
-        </thead>
+        </thead> //Шапка таблицы
         <tbody>
             <tr>
                 <td>1st cell in 1st row</td>
                 <td>2nd cell in 1st row</td>
                 <td>3d cell in 1st row</td>
             </tr>
-        </tbody>
+        </tbody> Одно из тел таблицы
         <tbody>
             <tr>
                 <td>1st cell in 2nd row</td>
@@ -36,13 +36,27 @@
                 <td rowspan="2">1st cell in 3d row</td>
                 <td>2nd cell in the 2nd column of 3d row</td>
                 <td>3d cell in the 3d column of 3d row</td>             
-            </tr>
+            </tr> <!-- В первой ячейке разделяем одну строку на 2 строки в последующих ячейках -->
             <tr>
                 <td>4th cell in the 2nd column of 3d row</td>
                 <td>5th cell in the 3d column of 3d row</td>
-            </tr>
+            </tr>            
         </tbody>
+        <tbody>
+            <tr>
+                <td colspan="3">6th cell in the 4th row</td>
+            </tr> <!-- объединяем 3 ячейки в строке -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>First column</th>
+                <th>Second column</th>
+                <th>Third column</th>
+            </tr>
+        </tfoot>
     </table>
+
+    <!-- Таблицы из интернета -->
     <table>
         <caption>Материал для гаек по ГОСТ 1759.5–87</caption>
         <thead>
@@ -101,6 +115,30 @@
           <th>Обозначение стандарта</th>
          </tr>
         </tfoot>
+       </table>
+       <table>
+        <tr>
+         <td rowspan="2">Вид соединения</td>
+         <td colspan="2">Поля допусков ширины шпоночного паза</td>
+        </tr>
+        <tr>
+         <td>Вал</td>
+         <td>Втулка</td>
+        </tr>
+        <tr>
+         <td>Свободное</td>
+         <td>H9</td>
+         <td>D10</td>
+        </tr>
+        <tr>
+         <td>Нормальное</td>
+         <td>N9</td>
+         <td>I<sub>s</sub>9</td>
+        </tr>
+        <tr>
+         <td>Плотное</td>
+         <td colspan="2">P9</td>
+        </tr>
        </table>
     
 </body>
